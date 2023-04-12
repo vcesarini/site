@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+p {
+    font-size: 16px;
+}
+#banner h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+#banner h2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+#section-text h2 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+}
+h3 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+}
+h6 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+p {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+}
+.bg-color-primario {
+    background-color: #05276B;
+}
+.color-primario {
+    color: #05276B;
+}
+.bg-color-secundario {
+    background-color: #F9008F;
+}
+.color-secundario {
+    color: #F9008F;
+}
+.bg-gris {
+    background-color: #e8e8e8;
+}
+.bg-img {
+    background-image: url('../img/banner-principal.jpg');
+    background-color: #F9008F;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-secundario {
+    background-image: url('../img/banner-secundario.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+.banner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+ }
+.titulo {
+    font-weight: 900;
+    font-size: 28px;
+    color: #F9008F;
+}
+.btn-cta {
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #05276B;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 30px;
+}
+.btn-cta:hover {
+    color: #fff;
+    background-color: #F9008F;
+}
+.btn-sumate {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 5px 30px;
+}
+.btn-sumate:hover {
+    color: #fff;
+    background-color: #F9008F;
+}
+.txt-pass {
+    color: #05276B;
+    text-decoration: none;
+    font-size: 14px;
+    float: right;
+    margin-top: 10px;
+}
+.txt-pass a {
+    color: #05276B;
+    text-decoration: none;
+}
+#que-ofrecemos h5 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #05276B;
+}
+#que-ofrecemos .card {
+    border: 0;
+}
+#que-ofrecemos i {
+font-size: 4rem;
+}
+#productos .card {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#productos .card img{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+#productos .card-body h5 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+}
+#productos .card-body p {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+#productos .card-footer {
+    border:none;
+    background-color: transparent;
+}
+.control-texto {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.accordion-item {
+    margin: 10px 0;
+}
+.accordion-header button {
+    font-weight: 700;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item {
+    border-radius: 10px !important;
+}
+.iconos {
+    color:#6A2A83;
+}
+.redes a {
+    color: white;
+    text-decoration: none;
+}
+.whatsapp:hover {
+    color: #25D366;
+    text-decoration: none;
+}
+.instagram:hover {
+    color: #E1306C;
+    text-decoration: none;
+}
+.facebook:hover {
+    color: #4267B2;
+    text-decoration: none;
+}
+.twitter:hover {
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.redes i {
+    font-size: 30px;
+    margin: 10px;
+ }
+ #footer p {
+    font-size: 14px;
+ }
+ #copyright p {
+    font-size: 12px;
+ }
+/* Small devices (landscape phones, 576px and up)  */
+@media (min-width: 425px) {
+    .height-100vh {
+        height: 50vh;
+    }
+ } 
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .height-100vh {
+        height: 50vh;
+    }
+ } 
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .height-100vh {
+        height: 100vh;
+    }
+}
