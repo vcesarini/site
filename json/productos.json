@@ -1,44 +1,43 @@
-{
-    "productos": [
+[
       {
         "categoria": "gaseosas",
         "sku": 1,
-        "Titulo": "Coca Cola",
-        "Precio": 234,
-        "Gramos": "",
+        "titulo": "Coca Cola",
+        "precio": 234,
+        "gramos": "",
         "cc/ml": 200,
         "img": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
-        "Texto Boton": "COMPRAR"
+        "descripcion": "Eelectronic typesetting, remaining essentiall.",
+        "boton": "COMPRAR"
       },
       {
         "categoria": "alimentos",
         "sku": 2,
-        "Titulo": "Pan",
-        "Precio": 34,
-        "Gramos": 35,
+        "titulo": "Pan",
+        "precio": 34,
+        "gramos": 35,
         "cc/ml": "",
         "img": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
-        "Texto Boton": "CONSULtAR"
+        "boton": "CONSULtAR"
       },
       {
         "categoria": "fiambreria",
         "sku": 3,
-        "Titulo": "Queso",
-        "Precio": 567,
-        "Gramos": 45,
+        "titulo": "Queso",
+        "precio": 567,
+        "gramos": 45,
         "cc/ml": "",
         "img": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
-        "Texto Boton": "comprar"
+        "boton": "comprar"
       },
       {
         "categoria": "vinos",
         "sku": 4,
-        "Titulo": "Tinto",
-        "Precio": 4565,
-        "Gramos": "",
+        "titulo": "Tinto",
+        "precio": 4565,
+        "gramos": "",
         "cc/ml": 70,
         "img": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
-        "Texto Boton": "ver"
+        "boton": "ver"
       }
-    ]
-}
+]
