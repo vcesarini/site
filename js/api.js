@@ -23,6 +23,7 @@ producto.then(res => res.json())
 
 document.addEventListener('DOMContentLoaded', traerProductos)
 const contenedor = document.querySelector('#contenedor')
+const modal = new bootstrap.Modal('#modal',{})
 
 async function traerProductos(){
 const url = 'http://fakestoreapi.com/products'
