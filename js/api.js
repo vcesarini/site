@@ -79,5 +79,5 @@ modalBody.innerHTML = `
 <p>${title}</p>
 `
 
-modal.show()
+// modal.show()
 }
