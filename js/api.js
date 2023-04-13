@@ -20,3 +20,9 @@ producto.then(res => res.json())
             fakeStore.appendChild(nuevoDiv)
         }
 });
+
+document.addEventListener('DOMContentLoaded', traerProductos)
+
+async function traerProductos(){
+const url = 'http://fakestoreapi.com/products'
+}
