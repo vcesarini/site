@@ -26,8 +26,8 @@ const contenedor = document.querySelector('#contenedor')
 // const modal = new bootstrap.Modal('#modal',{})
 
 async function traerProductos(){
-const url = 'http://fakestoreapi.com/products'
-
+const url = '../json/productos.json'
+// const producto = fetch('../json/productos.json')
 try {
 const resultado = await fetch(url)
 const respuesta = await resultado.json()
