@@ -1,9 +1,9 @@
 [
       {
-        "categoria": "gaseosas",
+        "category": "gaseosas",
         "sku": 1,
-        "titulo": "Coca Cola 1.5",
-        "precio": 234,
+        "title": "Coca Cola 1.5",
+        "price": 234,
         "gramos": "",
         "cc/ml": 200,
         "img": "https://static.wixstatic.com/media/d2b1c5_d858b74ff2534bdc98694e72c576fbe0~mv2_d_1600_1600_s_2.jpg/v1/fill/w_1600,h_1600,al_c,q_85/d2b1c5_d858b74ff2534bdc98694e72c576fbe0~mv2_d_1600_1600_s_2.jpg",
@@ -11,30 +11,30 @@
         "boton": "COMPRAR"
       },
       {
-        "categoria": "alimentos",
+        "category": "alimentos",
         "sku": 2,
-        "titulo": "Pan",
-        "precio": 34,
+        "title": "Pan",
+        "price": 34,
         "gramos": 35,
         "cc/ml": "",
-        "img": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
+"img":"https://d1on8qs0xdu5jz.cloudfront.net/webapp/images/productos/b/0000001000/1327.jpg",
         "boton": "CONSULtAR"
       },
       {
-        "categoria": "fiambreria",
+        "category": "fiambreria",
         "sku": 3,
-        "titulo": "Queso",
-        "precio": 567,
+        "title": "Queso",
+        "price": 567,
         "gramos": 45,
         "cc/ml": "",
         "img": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
         "boton": "comprar"
       },
       {
-        "categoria": "vinos",
+        "category": "vinos",
         "sku": 4,
-        "titulo": "Tinto",
-        "precio": 4565,
+        "title": "Tinto",
+        "price": 4565,
         "gramos": "",
         "cc/ml": 70,
         "img": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
