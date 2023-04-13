@@ -1,26 +1,3 @@
-const fakeStore = document.querySelector('#store')
-//    const producto = fetch('https://fakestoreapi.com/products?limit=4')
-const producto = fetch('../json/productos.json')
-
-producto.then(res => res.json())
-        .then(data => {
-        for (const elemento of data) {
-            const nuevoDiv = document.createElement('div');
-            nuevoDiv.classList.add('card');
-            nuevoDiv.innerHTML = `
-                <img src="${elemento.img}" class="card-img-top" alt="${elemento.title}">
-                <div class="card-body">
-                    <h5 class="card-title">${elemento.titulo}</h5>
-                    <p>${elemento.categoria}</p>
-                    <p class="card-text">${elemento.descripcion}</p>
-                    <p>Precio: $${elemento.precio}</p>
-                    <a href="#" class="btn btn-primary text-uppercase">${elemento.boton}</a>
-                </div>
-            `;
-            fakeStore.appendChild(nuevoDiv)
-        }
-});
-
 document.addEventListener('DOMContentLoaded', traerProductos)
 const contenedor = document.querySelector('#contenedor')
 
@@ -39,6 +16,9 @@ console.log(error)
 function pintarProductos(productos){
 productos.forEach((prod) => {
 const {id, title, price, category, description, image } = prod;
-contenedor.innerHTML += ``;
+contenedor.innerHTML += `
+<h1>${title}</h1>
+<img src="${image}" class="card-img-top" alt="${title}">
+`;
 });
 }
