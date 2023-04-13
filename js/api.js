@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', traerProductos)
 const contenedor = document.querySelector('#contenedor')
 
 async function traerProductos(){
-const url = 'http://fakestoreapi.com/products'
+const url = 'http://fakestoreapi.com/products?limit=4'
 
 try {
 const resultado = await fetch(url)
