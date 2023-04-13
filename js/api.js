@@ -40,6 +40,14 @@ function pintarProductos(productos){
 productos.forEach((prod) => {
 const {id, title, price, category, description, image } = prod;
 contenedor.innerHTML += `
-${title}`;
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="${image}">
+<div class="card-body">
+<h5 class="card-title">${title}</h5>
+<p>${description}</p>
+<p>${price}</p>
+</div>
+</div>
+`;
 });
 }
