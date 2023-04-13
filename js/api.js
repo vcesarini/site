@@ -75,6 +75,7 @@ modalTitle.textContent = title
 modalBody.innerHTML = `
 <img class="img-fluid" src="${image}">
 <p>${price}</p>
+<p>${title}</p>
 `
 
 modal.show()
