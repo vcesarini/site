@@ -39,6 +39,7 @@ console.log(error)
 function pintarProductos(productos){
 productos.forEach((prod) => {
 const {id, title, price, category, description, image } = prod;
-contenedor.innerHTML += ``;
+contenedor.innerHTML += `
+${title}`;
 });
 }
