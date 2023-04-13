@@ -46,8 +46,36 @@ contenedor.innerHTML += `
 <h5 class="card-title">${title}</h5>
 <p>${description}</p>
 <p>${price}</p>
+<button onclick=verProducto(${id}) class="btn btn-primary">VER</button>
 </div>
 </div>
 `;
 });
+}
+
+async fuction verProducto(id){
+const url = `http://fakestoreapi.com/products/${id}`
+
+try {
+const respuesta = await fetch(url)
+const resultado = await respuesta.json()
+verProductosDetalle(resultado)
+} catch (error) {
+console.log(error)
+}
+}
+
+function verProductoDetalle(resultado){
+const { title, price, image } = resultado;
+const modalTitle = document.querySelector('.modal .modal-title')
+const modalBody = querySelector('.modal .modal-body')
+
+modalTitle.textContent = title
+
+modalBody.innerHTML = `
+<img class="img-fluid" src="${image}">
+<p>${price}</p>
+`
+
+modal.show()
 }
