@@ -6,8 +6,8 @@
         "price": 234,
         "gramos": "",
         "cc/ml": 200,
-        "img": "https://static.wixstatic.com/media/d2b1c5_d858b74ff2534bdc98694e72c576fbe0~mv2_d_1600_1600_s_2.jpg/v1/fill/w_1600,h_1600,al_c,q_85/d2b1c5_d858b74ff2534bdc98694e72c576fbe0~mv2_d_1600_1600_s_2.jpg",
-        "descripcion": "Eelectronic typesetting, remaining essentiall.",
+        "image": "https://static.wixstatic.com/media/d2b1c5_d858b74ff2534bdc98694e72c576fbe0~mv2_d_1600_1600_s_2.jpg/v1/fill/w_1600,h_1600,al_c,q_85/d2b1c5_d858b74ff2534bdc98694e72c576fbe0~mv2_d_1600_1600_s_2.jpg",
+        "description": "Eelectronic typesetting, remaining essentiall.",
         "boton": "COMPRAR"
       },
       {
@@ -17,8 +17,9 @@
         "price": 34,
         "gramos": 35,
         "cc/ml": "",
-"img":"https://d1on8qs0xdu5jz.cloudfront.net/webapp/images/productos/b/0000001000/1327.jpg",
-        "boton": "CONSULtAR"
+"image":"https://d1on8qs0xdu5jz.cloudfront.net/webapp/images/productos/b/0000001000/1327.jpg",
+"description": "hola prueba descriptcion del producto.",
+        "boton": "CONSULTAR"
       },
       {
         "category": "fiambreria",
@@ -27,7 +28,8 @@
         "price": 567,
         "gramos": 45,
         "cc/ml": "",
-        "img": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
+        "image": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
+"description": "hola prueba descriptcion del producto.",
         "boton": "comprar"
       },
       {
@@ -37,7 +39,8 @@
         "price": 4565,
         "gramos": "",
         "cc/ml": 70,
-        "img": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
+        "image": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
+"description": "hola prueba descriptcion del producto.",
         "boton": "ver"
       }
 ]
