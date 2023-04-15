@@ -45,7 +45,7 @@ contenedor.innerHTML += `
 <img class="img-producto" src="${image}">
 <div class="card-body">
 <h5 class="card-title">${title}</h5>
-<h6>${category}</b6>
+<h6>${category}</h6>
 <p class="control-texto">${description}</p>
 <p>Precio: $${price}</p>
 <button class="btn btn-primary">${button}</button>
