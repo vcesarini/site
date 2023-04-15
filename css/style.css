@@ -161,17 +161,6 @@ font-weight: 400;
     -webkit-line-clamp: 3; /* number of lines to show */
     -webkit-box-orient: vertical;
 }
-
-.accordion-item {
-    margin: 10px 0;
-}
-.accordion-header button {
-    font-weight: 700;
-    font-family: 'Montserrat', Arial, sans-serif;
-}
-.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item {
-    border-radius: 10px !important;
-}
 .iconos {
     color:#6A2A83;
 }
