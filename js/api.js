@@ -39,7 +39,7 @@ console.log(error)
 
 function pintarProductos(productos){
 productos.forEach((prod) => {
-const {id, title, price, category, description, image, boton } = prod;
+const {id, title, price, category, description, image, button } = prod;
 contenedor.innerHTML += `
 <div class="card" style="width: 18rem;">
 <img class="card-img-top" src="${image}">
