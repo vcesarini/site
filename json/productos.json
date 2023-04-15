@@ -1,46 +1,46 @@
 [
-      {
-        "category": "gaseosas",
-        "sku": 1,
-        "title": "Coca Cola 1.5",
-        "price": 234,
-        "gramos": "",
-        "cc/ml": 200,
-        "image": "https://static.wixstatic.com/media/d2b1c5_d858b74ff2534bdc98694e72c576fbe0~mv2_d_1600_1600_s_2.jpg/v1/fill/w_1600,h_1600,al_c,q_85/d2b1c5_d858b74ff2534bdc98694e72c576fbe0~mv2_d_1600_1600_s_2.jpg",
-        "description": "Eelectronic typesetting, remaining essentiall.",
-        "boton": "COMPRAR"
-      },
-      {
-        "category": "alimentos",
-        "sku": 2,
-        "title": "Pan",
-        "price": 34,
-        "gramos": 35,
-        "cc/ml": "",
-"image":"https://d1on8qs0xdu5jz.cloudfront.net/webapp/images/productos/b/0000001000/1327.jpg",
-"description": "hola prueba descriptcion del producto.",
-        "boton": "CONSULTAR"
-      },
-      {
-        "category": "fiambreria",
-        "sku": 3,
-        "title": "Queso",
-        "price": 567,
-        "gramos": 45,
-        "cc/ml": "",
-        "image": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
-"description": "hola prueba descriptcion del producto.",
-        "boton": "comprar"
-      },
-      {
-        "category": "vinos",
-        "sku": 4,
-        "title": "Tinto",
-        "price": 4565,
-        "gramos": "",
-        "cc/ml": 70,
-        "image": "https://git.estudiogrulla.com.ar/index_files/logo.jpg",
-"description": "hola prueba descriptcion del producto.",
-        "boton": "ver"
-      }
+  {
+    "category": "gaseosas",
+    "sku": 1,
+    "title": "Coca Cola 2.5",
+    "price": 500,
+    "gramos": "",
+    "cc/ml": 1682996400000,
+    "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/312/763/products/coca-cola-comun-225-lts_93109471-460c97fcff6110b91d15981366522182-640-0.jpg",
+    "description": "las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "button": "COMPRAR"
+  },
+  {
+    "category": "alimentos",
+    "sku": 2,
+    "title": "Pan Lactal",
+    "price": 640,
+    "gramos": 125,
+    "cc/ml": "",
+    "image": "https://carrefourar.vtexassets.com/arquivos/ids/308684/7793890258769_02.jpg?v=638145971063270000",
+    "description": "las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "button": "CONSULtAR"
+  },
+  {
+    "category": "fiambreria",
+    "sku": 3,
+    "title": "Mortadela Paladini",
+    "price": 300,
+    "gramos": 300,
+    "cc/ml": "",
+    "image": "https://almacencooperativo.com.ar/wp-content/uploads/2020/11/Mortadelita-300gr-Paladini.jpg",
+    "description": "las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "button": "SUMAR AL CARRITO"
+  },
+  {
+    "category": "vinos",
+    "sku": 4,
+    "title": "Viña de Balbo",
+    "price": 1500,
+    "gramos": "",
+    "cc/ml": 1682910000000,
+    "image": "https://statics.dinoonline.com.ar/imagenes/full_600x600_ma/3060113_f.jpg",
+    "description": "las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+    "button": "COMPRAR"
+  }
 ]

@@ -131,7 +131,7 @@ font-size: 4rem;
     align-items: center;
     justify-content: center;
 }
-#productos .card img{
+.card img{
     height: 150px;
     width: 100%;
     object-fit: contain;
