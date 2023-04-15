@@ -131,7 +131,7 @@ font-size: 4rem;
     align-items: center;
     justify-content: center;
 }
-.card img{
+#productos .card img{
     height: 150px;
     width: 100%;
     object-fit: contain;
@@ -142,6 +142,7 @@ font-size: 4rem;
 }
 #productos .card-body p {
     font-family: 'Montserrat', Arial, sans-serif;
+font-weight: 400;
 }
 #productos .card-footer {
     border:none;
