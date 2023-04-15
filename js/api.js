@@ -46,7 +46,7 @@ contenedor.innerHTML += `
 <div class="card-body">
 <h5 class="card-title">${title}</h5>
 <h6>${category}</b6>
-<p>${description}</p>
+<p class="control-texto">${description}</p>
 <p>Precio: $${price}</p>
 <button class="btn btn-primary">${button}</button>
 </div>
