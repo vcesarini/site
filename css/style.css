@@ -8,6 +8,11 @@
 p {
     font-size: 16px;
 }
+.texto {
+    color: red;
+    background-color: black;
+    font-size: 50px     ;
+}
 #banner h1 {
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 900;
@@ -126,25 +131,26 @@ p {
 #que-ofrecemos i {
 font-size: 4rem;
 }
-#productos .card {
+.card {
     padding: 20px;
     align-items: center;
     justify-content: center;
 }
-#productos .card img{
+.img-producto {
     height: 150px;
     width: 100%;
     object-fit: contain;
+    max-width: 150px;
 }
-#productos .card-body h5 {
+.card-body h5 {
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 700;
 }
-#productos .card-body p {
+.card-body p {
     font-family: 'Montserrat', Arial, sans-serif;
 font-weight: 400;
 }
-#productos .card-footer {
+.card-footer {
     border:none;
     background-color: transparent;
 }
