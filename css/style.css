@@ -6,133 +6,13 @@
     font-weight: 400;
 }
 p {
-    font-size: 16px;
-}
-.texto {
-    color: red;
-    background-color: black;
-    font-size: 50px     ;
-}
-#banner h1 {
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-weight: 900;
-    font-size: 40px;
-}
-#banner h2 {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-}
-#section-text h2 {
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 23px;
-}
-h3 {
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-weight: 900;
-    font-size: 28px;
-}
-h6 {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-}
-p {
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 16px; 
 }
-.bg-color-primario {
-    background-color: #05276B;
-}
-.color-primario {
-    color: #05276B;
-}
-.bg-color-secundario {
-    background-color: #F9008F;
-}
-.color-secundario {
-    color: #F9008F;
-}
-.bg-gris {
-    background-color: #e8e8e8;
-}
-.bg-img {
-    background-image: url('../img/banner-principal.jpg');
-    background-color: #F9008F;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bg-secundario {
-    background-image: url('../img/banner-secundario.jpg');
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 500px;
-    position: relative;
-}
-.banner-content {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
- }
-.titulo {
-    font-weight: 900;
-    font-size: 28px;
-    color: #F9008F;
-}
-.btn-cta {
-    font-weight: 700;
-    font-size: 16px;
-    background-color: #05276B;
-    color: #fff;
-    border-radius: 20px;
-    padding: 5px 30px;
-}
-.btn-cta:hover {
-    color: #fff;
-    background-color: #F9008F;
-}
-.btn-sumate {
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    background-color: transparent;
-    color: #fff;
-    border-radius: 20px;
-    border: 1px solid #fff;
-    padding: 5px 30px;
-}
-.btn-sumate:hover {
-    color: #fff;
-    background-color: #F9008F;
-}
-.txt-pass {
-    color: #05276B;
-    text-decoration: none;
-    font-size: 14px;
-    float: right;
-    margin-top: 10px;
-}
-.txt-pass a {
-    color: #05276B;
-    text-decoration: none;
-}
-#que-ofrecemos h5 {
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-weight: 900;
-    font-size: 30px;
-    color: #05276B;
-}
-#que-ofrecemos .card {
-    border: 0;
-}
-#que-ofrecemos i {
-font-size: 4rem;
-}
+
 .card {
-    padding: 20px;
+    padding: 10px;
     align-items: center;
     justify-content: center;
 }
@@ -142,14 +22,7 @@ font-size: 4rem;
     object-fit: contain;
     max-width: 150px;
 }
-.card-body h5 {
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-weight: 700;
-}
-.card-body p {
-    font-family: 'Montserrat', Arial, sans-serif;
-font-weight: 400;
-}
+
 .card-footer {
     border:none;
     background-color: transparent;
@@ -161,56 +34,135 @@ font-weight: 400;
     -webkit-line-clamp: 3; /* number of lines to show */
     -webkit-box-orient: vertical;
 }
-.iconos {
-    color:#6A2A83;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
 }
-.redes a {
+#boton-carrito {
+    border: none;
+    color: royalblue;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px 20px;
+    transition: all .3s;
+}
+#boton-carrito:hover {
+    cursor: pointer;
     color: white;
-    text-decoration: none;
+    background-color: royalblue;
 }
-.whatsapp:hover {
-    color: #25D366;
-    text-decoration: none;
+#boton-carrito:focus {
+    outline: none;
 }
-.instagram:hover {
-    color: #E1306C;
-    text-decoration: none;
+
+#contenedor-productos {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.facebook:hover {
-    color: #4267B2;
-    text-decoration: none;
+
+.modal-contenedor {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    opacity: 0;
+    visibility: hidden;
 }
-.twitter:hover {
-    color: #1DA1F2;
-    text-decoration: none;
+
+.modal-active {
+    opacity: 1;
+    visibility: visible;
 }
-.redes i {
-    font-size: 30px;
-    margin: 10px;
- }
- #footer p {
-    font-size: 14px;
- }
- #copyright p {
-    font-size: 12px;
- }
+
+.modal-carrito {
+    position: relative;
+    background-color: white;
+    min-width: 500px;
+    padding: 20px;
+    margin-top: -100%;
+    transition: all .5s;
+}
+
+.modal-active .modal-carrito {
+    margin-top: 0;
+}
+
+.modal-carrito h3 {
+    color: royalblue;
+    padding-bottom: 5px;
+}
+.modal-carrito #carritoCerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: royalblue;
+    border: none;
+    background-color: white;
+}
+.modal-carrito #carritoCerrar:hover {
+    cursor: pointer;
+}
+.modal-carrito #carritoCerrar:focus {
+    outline: none;
+}
+.modal-carrito .precioProducto {
+    padding-top: 10px;
+    
+}
+
+.productoEnCarrito {
+    border-left: 5px solid lightblue;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.productoEnCarrito:hover {
+    border-left: 5px solid royalblue;
+}
+
+.boton-eliminar {
+    background-color: white;
+    color: red;
+    border: none;
+    font-size: 20px;
+}
+
+.boton-eliminar:hover {
+    cursor: pointer;
+}
+.boton-eliminar:focus {
+    outline: none;
+}
+
+
 /* Small devices (landscape phones, 576px and up)  */
 @media (min-width: 425px) {
-    .height-100vh {
-        height: 50vh;
-    }
+
  } 
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .height-100vh {
-        height: 50vh;
-    }
+
  } 
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .height-100vh {
-        height: 100vh;
-    }
+
 }
