@@ -39,7 +39,7 @@ stockProductos.forEach((producto) => {
     <p class="control-texto">${producto.desc}</p>
     <p>Talle: ${producto.talle}</p>
     <p class="precioProducto">Precio:$ ${producto.precio}</p>
-    <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
+    <button id="agregar${producto.id}" class="boton-agregar btn btn-primary">Agregar <i class="fas fa-shopping-cart"></i></button>
     </div>
     `
     contenedorProductos.appendChild(div)
